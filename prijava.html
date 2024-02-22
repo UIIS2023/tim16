@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novogodisnja radionica</title>
+
+    <link rel="icon" href="slike/Logo.svg" />
+    <link rel="stylesheet" href="prijava.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Headland+One&family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="slike/Logo.svg" alt="Logo" id="logo" />
+        <h1>Новогодишња<br /><span>радионица</span></h1>
+      </a>
+      <nav>
+        <a href="recepti.html">Рецепти</a>
+        <a href="o nama.html">О нама</a>
+        <a href="prijava.html">Пријави се</a>
+      </nav>
+    </header>
+    <img src="slike/baner.png" alt="" />
+    <div class="forma">
+      <h1 id="prijaviSe">Пријави се</h1>
+      <p>
+        Придружите нам се на забавном часу кувања дизајнираном за о драсле и
+        децу да уче, кувају и да се смеју са нашим куварима док се баве неколико
+        класичних оброка кој и ће сигурно постати редовни код куће.
+      </p>
+      <form>
+        <input type="text" placeholder="Име" required />
+        <input type="text" placeholder="Презиме" required />
+
+        <input type="email" placeholder="Email адреса" />
+        <input type="phone" placeholder="Број телефона" />
+
+        <select name="radionica" id="radionica">
+          <option value="">Изаберите радионицу</option>
+          <option value="nr">Новогодишња радионица</option>
+          <option value="ik">Италијанска кухиња</option>
+          <option value="mk">Мексичка кухиња</option>
+          <option value="kv">Коктел вече</option>
+        </select>
+        <button id="prijava">ПРИЈАВИ СЕ</button>
+      </form>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="sadrzaj">
+          <h1>Успешна пријава!</h1>
+          <svg
+            width="90"
+            height="90"
+            viewBox="0 0 1024 1024"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 0C229.232 0 0 229.232 0 512C0 794.784 229.232 1024 512 1024C794.784 1024 1024 794.784 1024 512C1024 229.232 794.784 0 512 0ZM512 961.008C264.976 961.008 64 759.024 64 511.998C64 264.974 264.976 63.998 512 63.998C759.024 63.998 960 264.975 960 511.998C960 759.021 759.024 961.008 512 961.008ZM716.336 324.656L415.935 626.944L280.655 491.664C268.159 479.168 247.903 479.168 235.391 491.664C222.895 504.16 222.895 524.416 235.391 536.912L393.775 695.312C406.271 707.792 426.527 707.792 439.039 695.312C440.479 693.872 441.712 692.303 442.832 690.672L761.616 369.919C774.096 357.423 774.096 337.167 761.616 324.656C749.104 312.16 728.848 312.16 716.336 324.656Z"
+              fill="#0FA958"
+            />
+          </svg>
+          <p>
+            Хвала на поверењу. <br />
+            Радујемo се будућој сарадњи и приликама које долазе.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span id="copy">&copy Copyright Теодора Кондић, Радмила Трајковски </span>
+    </div>
+  </body>
+</html>
+<script src="prijava.js"></script>

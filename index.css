@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    color: #2B1910;
+/*     border: 1px solid red;
+ */}
+
+body {
+    background-color: #F3E279;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CDA964;
+    opacity: 0.9;
+    padding: 0.5rem 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+header a img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    color: #dedfe0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 140%
+}
+
+header a h1 {
+    color: #B92126;
+    font-family: Caveat;
+    font-weight: 800;
+    line-height: 80%;
+}
+
+span {
+    color: #67100A;
+    font-family: Caveat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: #2B1910;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 140%;
+    transition-duration: 0.5s;
+}
+
+#baner {
+    width: 100%;
+    height: 100vh;
+}
+
+nav a:hover {
+    background: #67100A;
+    color: #F3E279;
+}
+
+.sinisa span {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.kruzic {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+    background-color: #FDFBEE;
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+    box-shadow: 4px 4px 16px 0px rgba(43, 25, 16, 0.20);
+}
+
+.sinisa .kruzic span {
+    font-size: 3.13rem;
+}
+
+.sinisa {
+    margin: 6.5rem 4rem;
+    color: #2B1910;
+    text-align: center;
+}
+
+.sinisa span {
+    font-family: Inter, sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.sinise {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.radionice {
+    background-color: #FDFBEE;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 4rem 6.5rem;
+    color: #2B1910;
+    gap: 3.5rem;
+}
+
+.radionica:hover {
+    scale: 1.1;
+    transition-duration: 0.2s;
+}
+
+.radionica:not(hover) {
+    scale: 1;
+    transition-duration: 0.5s;
+}
+
+.radionica:hover h3 {
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.radionica {
+    width: 30%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 4px 4px 16px 0px rgba(43, 25, 16, 0.20);
+}
+
+.radionica p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+.radionica h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#vreme {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8rem;
+    padding: 10rem;
+}
+
+#txt {
+
+    font-size: 3rem;
+    margin-right: 6.5rem;
+    margin-left: 6.5rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 4.5em;
+    background-color: #CDA964;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#copy {
+    font-family: Inter, sans-serif;
+}
+
+
+#prijava {
+    gap: 0.625 rem;
+    width: 17rem;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    border: 2px solid #67100a;
+    cursor: pointer;
+    background-color: transparent;
+    margin-bottom: 2.5rem;
+}
+
+#prijava:hover {
+    color: #F3E279;
+    border: 2px solid #67100a;
+    background-color: #67100A;
+    cursor: pointer;
+}
+
+#tajmer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E279;
+}
+
+.radnasl {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 6.5rem;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+    padding-top: 3rem;
+}
+
+.radnasl h1 {
+    padding: 1.5rem;
+}
+
+section {
+    background-color: #FDFBEE;
+}

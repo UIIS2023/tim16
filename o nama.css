@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    color: #2B1910;
+    /*border:  1px solid red;*/
+}
+
+body {
+    background-color: #F3E279;
+    overflow-x: hidden;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CDA964;
+    opacity: 0.9;
+    padding: 0.5rem 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+header a img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    color: #dedfe0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 140%
+}
+
+header a h1 {
+    color: #B92126;
+    font-family: Caveat;
+    font-weight: 800;
+    line-height: 80%;
+}
+
+span {
+    color: #67100A;
+    font-family: Caveat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: #2B1910;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 140%;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background: #67100A;
+    color: #F3E279;
+}
+
+/* div{
+    padding-bottom: 2.5rem;
+} */
+.onama {
+    background-color: #FDFBEE;
+
+}
+
+.onama p {
+    padding: 4rem;
+    text-align: justify;
+    width: 50%;
+    line-height: 2rem;
+}
+
+.onama h1 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.onama div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.onama div img {
+    padding: 4.5rem;
+    border-radius: 5rem;
+    margin: auto;
+}
+
+/* h1{
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    padding-top: 2rem;
+    text-align: center;
+} */
+#tim {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+#tim1 {
+    font-family: Inter, sans-serif;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1rem;
+    width: 71rem;
+    display: block;
+    margin: auto;
+    line-height: 2rem;
+    color: #2B1910;
+    ;
+}
+
+.osobe {
+    display: flex;
+    /*width: 80%;*/
+    justify-content: center;
+    margin-right: 6.5rem;
+    margin-left: 6.5rem;
+    padding: 4rem 6.5rem;
+    /*  justify-content: center; */
+
+}
+
+#osob {
+    background-color: #F3E279;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.osoba {
+    box-shadow: 4px 4px 16px 0px rgba(43, 25, 16, 0.20);
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    align-items: center;
+    padding: 2.5rem;
+    margin: 1.5rem;
+    width: 100%;
+    background-color: #FDFBEE;
+    gap: 1.5rem;
+    color: #2B1910;
+}
+
+.osoba .h1 {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 140%;
+
+}
+
+.osoba img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px 16px 0px rgba(43, 25, 16, 0.20);
+}
+
+.osoba:hover {
+    scale: 1.1;
+    transition-duration: 0.2s;
+}
+
+#adresa {
+    font-family: Inter, sans-serif;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 6.5rem;
+    width: 50%;
+    display: block;
+    line-height: 2rem;
+    color: #2B1910;
+    ;
+}
+
+.adresa p {
+    padding: 0;
+}
+
+iframe {
+    padding: 4.5rem
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    background-color: #FDFBEE;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #2b19107e;
+    padding: 0.5rem 3rem;
+    color: #2B1910;
+}
+
+.footer {
+    width: 100%;
+    height: 4.5em;
+    background-color: #CDA964;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    font-family: Inter, sans-serif;
+}
+
+#info1 {
+    text-align: left;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
